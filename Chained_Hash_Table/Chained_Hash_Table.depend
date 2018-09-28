@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1538140231 source:e:\leetcode oj\chained_hash_table\main.cpp
+	<iostream>
+	"HashTable.h"
+
+1538140078 e:\leetcode oj\chained_hash_table\hashtable.h
+	<iostream>
+	<functional>
+	<stdexcept>
+
