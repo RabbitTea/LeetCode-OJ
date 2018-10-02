@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1538489813 source:e:\leetcode oj\binarysearchtree\main.cpp
+	<iostream>
+	"BinarySearchTree.h"
+
+1538489866 e:\leetcode oj\binarysearchtree\binarysearchtree.h
+	<iostream>
+
