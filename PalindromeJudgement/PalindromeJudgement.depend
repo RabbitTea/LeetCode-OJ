@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1538643607 source:e:\leetcode oj\palindromejudgement\main.cpp
+	<iostream>
+	<cstring>
+	"PalindromeList.h"
+
+1538643651 e:\leetcode oj\palindromejudgement\palindromelist.h
+	<iostream>
+
