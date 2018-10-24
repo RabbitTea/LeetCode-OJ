@@ -23,7 +23,7 @@ public:
     }
 };
 
-/**模板类定义二叉树类，并声明其相关操作**/
+/**模板类定义二叉搜索树类，并声明其相关操作**/
 template<class T>
 class BSTree{
 public:

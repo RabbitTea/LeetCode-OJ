@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1539745236 source:e:\leetcode oj\total_same_char\main.cpp
+1539745742 source:e:\leetcode oj\total_same_char\main.cpp
 	<iostream>
 	<map>
 	<string>
