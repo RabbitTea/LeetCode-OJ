@@ -65,7 +65,7 @@ public class Solution {
                    fast = fast.next;
                    slow = slow.next;
                }
-               return slow;  // 当这两个节点再次重合时为环七点
+               return slow;  // 当这两个节点再次重合时为环起点
            }
        }
 
