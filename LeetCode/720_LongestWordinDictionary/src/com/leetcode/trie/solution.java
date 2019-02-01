@@ -1,10 +1,6 @@
 package com.leetcode.trie;
 
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.Scanner;
-
-import com.leetcode.trie.Trie.TrieNode;
 
 /*
  * @description：给定一个字符串数组，找出其中最长且能被其它单词依次得到的字符串(实质为前缀匹配)，若得到多个，则返回字典序较小的那个单词；
@@ -20,6 +16,7 @@ public class solution {
 		String[] words = new String[1000];
 		
 		System.out.println("请输入字符串数组，用逗号隔开");
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		//可输入多次测试用例，输入0结束
 		while(!sc.hasNext("0")) {

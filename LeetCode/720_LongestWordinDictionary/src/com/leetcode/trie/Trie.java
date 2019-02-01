@@ -12,7 +12,7 @@ public class Trie {
 	
 	class TrieNode{
 		boolean isWord = false;
-	    HashMap<Character,TrieNode> children = new HashMap();
+	    HashMap<Character,TrieNode> children = new HashMap<Character, TrieNode>();
 		int end = 0;
 	}
 
@@ -40,7 +40,7 @@ public class Trie {
 		String ans = "";
 		
 		//初始化节点栈
-		Stack<TrieNode> stack = new Stack();
+		Stack<TrieNode> stack = new Stack<TrieNode>();
 		//根节点入栈
 		stack.push(root);
 		

@@ -13,9 +13,10 @@ import java.util.Scanner;
 public class solution2 {
 
 	public static void main(String[] args) {
-String[] words = new String[1000];
+		String[] words = new String[1000];
 		
 		System.out.println("请输入字符串数组，用逗号隔开");
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		//可输入多次测试用例，输入0结束
 		while(!sc.hasNext("0")) {
@@ -40,7 +41,7 @@ String[] words = new String[1000];
 		
 		Arrays.sort(words);   //排序字符串数组
 		
-		ArrayList<String> result = new ArrayList();
+		ArrayList<String> result = new ArrayList<String>();
 		
 		for(String word : words) {
 			if(word.length() == 1 || result.contains(word.substring(0, word.length()-1))) {
