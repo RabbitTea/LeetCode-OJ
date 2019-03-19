@@ -1,0 +1,3 @@
+﻿  main.cpp
+g:\algorithm program\sort algorithm\bubblesort\bubblesort\main.cpp(74): warning C4018: “<”: 有符号/无符号不匹配
+  BubbleSort.vcxproj -> G:\Algorithm Program\Sort Algorithm\BubbleSort\Debug\BubbleSort.exe
