@@ -1,0 +1,4 @@
+﻿  main.cpp
+g:\algorithm program\sort algorithm\quicksort\quicksort\main.cpp(98): warning C4018: “<”: 有符号/无符号不匹配
+g:\algorithm program\sort algorithm\quicksort\quicksort\main.cpp(145): warning C4018: “<”: 有符号/无符号不匹配
+  QuickSort.vcxproj -> G:\Algorithm Program\Sort Algorithm\QuickSort\Debug\QuickSort.exe
