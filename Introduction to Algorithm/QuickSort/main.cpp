@@ -28,7 +28,8 @@ int partitionSeq(int A[], int p, int r)
             A[j] = temp;
         }
     }
-    i = i + 1;
+    i = i + 1;   //此时位置上的值是比基准数大的值，在下边的交换中换到最后
+	
     temp = A[i];
     A[i] = A[r];
     A[r] = temp;

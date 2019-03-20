@@ -105,7 +105,8 @@ int partition(vector<int>& arr, int low, int high) {
 		}
 	}
 
-	i++;
+	i++;   //此时i指向的值为比基准数大的值，也是基准数的最终位置
+	//将基准数(数组最后一个元素)与该值做交换
 	int temp = arr[i];
 	arr[i] = arr[high];
 	arr[high] = temp;
