@@ -27,7 +27,7 @@ void BucketSort(int A[], int n, int Max)
 
         /* ÁíÒ»ÖÖÐ´·¨ */
         /*
-        while(buckets[i] > 0){
+        while(buckets[i]-- > 0){
             A[j] = i;
             j++;
             i++;
