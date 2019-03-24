@@ -1,0 +1,3 @@
+﻿  main.cpp
+g:\github\algorithm program\data structure\singlelinkedlist\singlelinkedlist\main.cpp(102): warning C4101: “value”: 未引用的局部变量
+  SingleLinkedList.vcxproj -> G:\GitHub\Algorithm Program\Data Structure\SingleLinkedList\Debug\SingleLinkedList.exe
