@@ -1,0 +1,8 @@
+﻿  main.cpp
+g:\github\algorithm program\data structure\queue\queue\main.cpp(57): warning C4806: “==”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+  g:\github\algorithm program\data structure\queue\queue\main.cpp(56): note: 编译 类 模板 成员函数 "int Queue<int>::isEmpty(void)" 时
+  g:\github\algorithm program\data structure\queue\queue\main.cpp(83): note: 参见对正在编译的函数 模板 实例化“int Queue<int>::isEmpty(void)”的引用
+  g:\github\algorithm program\data structure\queue\queue\main.cpp(32): note: 编译 类 模板 成员函数 "Queue<int>::Queue(int)" 时
+  g:\github\algorithm program\data structure\queue\queue\main.cpp(126): note: 参见对正在编译的函数 模板 实例化“Queue<int>::Queue(int)”的引用
+  g:\github\algorithm program\data structure\queue\queue\main.cpp(126): note: 参见对正在编译的 类 模板 实例化 "Queue<int>" 的引用
+  Queue.vcxproj -> G:\GitHub\Algorithm Program\Data Structure\Queue\Debug\Queue.exe
