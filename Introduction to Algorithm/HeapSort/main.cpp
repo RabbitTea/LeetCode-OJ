@@ -52,7 +52,7 @@ void Build_Max_Heap(int A[], int n)
 {
     //从最后一个结点的父结点开始，依次向前维护最大堆的性质（向上调整）
     for(int i=(n+1)/2-1;i>=0;i--){
-        Max_Heapify(A,n,i);
+        Max_Heapify(A,n,i);      //向前处理每一个节点时，都向下调整一直到不能调整的位置
     }
 }
 
@@ -63,7 +63,7 @@ void HeapSort(int A[], int n)
     Build_Max_Heap(A,n);
 
     //依次摘除根结点：将根结点与最后一个结点的元素值交换，通过每次缩小数组的一个长度来实现删除
-    for(int i=n;i>=0;i--){
+    for(int i=n;i>=0;i--){  //每摘除一个节点，总长度会变小，即最后一个节点的索引位置会变小
         //cout << A[1] << " ";
 
         int temp = A[i];
@@ -79,7 +79,7 @@ int main()
     int length;
     cout << "请输入待排序元素的个数：" << endl;
     cin >> length;
-
+    
     int A[length];
     cout << "请依次输入待排序元素：" << endl;
     for(int i=0;i<length;i++){
