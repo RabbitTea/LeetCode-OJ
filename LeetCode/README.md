@@ -115,6 +115,7 @@
 ### 617.[MergeTwoBinaryTrees](https://github.com/RabbitTea/LeetCode-OJ/tree/master/MergeTwoBinaryTrees)
 
 * 合并两棵二叉树；
+* **这里写了二叉树的节点类，包括层次序建立二叉树(利用数组索引的性质)，层次序输出二叉树等；**
 
 ---
 

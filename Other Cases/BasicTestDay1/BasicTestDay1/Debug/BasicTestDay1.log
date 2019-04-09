@@ -1,0 +1,4 @@
+﻿  traverseBinaryTree.cpp
+g:\github\algorithm program\other cases\basictestday1\basictestday1\traversebinarytree.cpp(25): warning C4018: “<”: 有符号/无符号不匹配
+g:\github\algorithm program\other cases\basictestday1\basictestday1\traversebinarytree.cpp(31): warning C4018: “<”: 有符号/无符号不匹配
+  BasicTestDay1.vcxproj -> G:\GitHub\Algorithm Program\Other Cases\BasicTestDay1\Debug\BasicTestDay1.exe
