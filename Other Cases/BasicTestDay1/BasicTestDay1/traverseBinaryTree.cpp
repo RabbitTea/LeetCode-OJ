@@ -144,20 +144,20 @@ void postTraverse(treeNode* root) {
 
 		p = s.top();  //查看当前栈顶元素
 
-		if (p->right == NULL || p->right == q) {  //如果右孩子不为空且右孩子未被访问过，右孩子进栈
+		if (p->right == NULL || p->right == q) {  //右孩子为空或已访问过，则可以输出根节点
 			cout << p->val << " ";
 			s.pop();
 			q = p;
 			p = NULL;    //△注意这里一定要将遍历节点置空，因为当前节点的左右孩子都已经进栈了，其使命完成
 		}
-		else {  //右孩子为空或已访问过，则可以输出根节点
+		else {  //如果右孩子不为空且右孩子未被访问过，右孩子进栈
 			//s.push(p->right);
 			p = p->right;
 		}
 	}
 }
 
-
+/*
 int main() {
 	//建立二叉树
 	vector<int> nums;
@@ -179,3 +179,4 @@ int main() {
 	//inTraverse(root);
 	postTraverse(root);
 }
+*/

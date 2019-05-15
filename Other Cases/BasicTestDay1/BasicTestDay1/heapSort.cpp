@@ -36,7 +36,7 @@ void adjustUp2Down(vector<int>& nums, int i) {
 	}
 }
 
-//构建最小堆
+//构建最大堆
 void create(vector<int>& nums) {
 	if (nums.empty()) {
 		cout << "堆不能为空！" << endl;
@@ -46,7 +46,16 @@ void create(vector<int>& nums) {
 	for (int i = (len + 1) / 2 - 1; i >= 0; i--) {
 		adjustUp2Down(nums, i);  //向下调整堆
 	}
+
+	/*
+	cout << "建堆" << endl;
+	for (int i = 0; i < len; i++) {
+		cout << nums[i] << " ";
+	}
+	cout << endl;
+	*/
 }
+
 
 //删除堆顶元素
 int remove(vector<int>& nums) {
@@ -72,7 +81,36 @@ void heap_sort(vector<int>& nums) {
 	}
 }
 
+
 /*
+inline void swap(int& a, int& b) {
+	int temp = a;
+	a = b;
+	b = temp;
+}
+
+
+void heapSort(vector<int>& nums) {
+	create(nums);
+
+	int len = nums.size();
+
+	//这里不需要pop_back，因为这样会删除原数组，这里直接对原数组做修改，返回排好序的数组
+	for (int i = len - 1; i >= 0; i--) {
+		//交换堆顶和最后一个位置的元素
+		swap(nums[0], nums[i]);
+
+		adjustUp2Down(nums, 0);
+
+	}
+
+	//输出排好序的数组
+	for (int i = 0; i < len; i++) {
+		cout << nums[i] << " ";
+	}
+}
+*/
+
 int main() {
 	vector<int> nums;
 	int num;
@@ -89,4 +127,3 @@ int main() {
 	cout << "排序后元素为：" << endl;
 	heap_sort(nums);
 }
-*/
